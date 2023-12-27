@@ -16,4 +16,9 @@ Upon completion of the recursion, the compiler generates the final result of the
 
 # Risk Considerations in This Code
 
-Due to the nature of the Large-Scale Language Model acting as a black box, there are inherent uncertainties in the returned results. Specifically, if there is a potential for network packet interception and modification by an attacker, this could compromise the security of your system. The compiler could become vulnerable if the modified code returned by the language model is executed without proper validation. Therefore, users are advised to exercise caution and ensure the integrity of the code before execution, especially when using the compiler in a networked environment.
+Due to the nature of the Large-Scale Language Model acting as a black box, 
+there are inherent uncertainties in the returned results. Specifically, 
+if there is a potential for network packet interception and modification by an attacker, 
+this could compromise the security of your system. 
+The compiler could become vulnerable if the modified code returned by the language model is executed without proper validation. 
+Therefore, users are advised to exercise caution and ensure the integrity of the code before execution, especially when using the compiler in a networked environment.
